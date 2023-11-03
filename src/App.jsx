@@ -2,6 +2,8 @@
 
 import DisplaySimpleJsx from './Project/1.DisplaySimpleJsx'
 import FetchData from './Project/10.FetchData'
+import FilterOfList from './Project/11.FilterOfList'
+import CurrencyConverter from './Project/12.CurrencyConveter'
 import DisplayUsers from './Project/2.DisplayUsersDataArray'
 import DisplayElement from './Project/3.HideElement'
 import DataBinding from './Project/4.DataBinding'
@@ -22,7 +24,9 @@ function App() {
     {/* <DynamicAddChildren /> */}
     {/* <SumofTwoNum /> */}
     {/* <Counter /> */}
-    <FetchData />
+    {/* <FetchData /> */}
+    {/* <FilterOfList /> */}
+    <CurrencyConverter />
     </>
   )
 }
