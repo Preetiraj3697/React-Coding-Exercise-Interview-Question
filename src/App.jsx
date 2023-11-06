@@ -13,6 +13,9 @@ import Parent from './Project/6.UpdateParent'
 import DynamicAddChildren from './Project/7.DynamicAddChildren'
 import SumofTwoNum from './Project/8.SumofTwoNum'
 import Counter from './Project/9.Counter'
+import CryptoDashboard from './Project/14.CryptoDashboard'
+import StarRating from './Project/15.StarRating/StarRating'
+import StarRating2 from './Project/15.StarRating/StarRating2'
 function App() {
  return(
     <>
@@ -28,7 +31,10 @@ function App() {
     {/* <FetchData /> */}
     {/* <FilterOfList /> */}
     {/* <CurrencyConverter /> */}
-    <DropDown />
+    {/* <DropDown /> */}
+    {/* <CryptoDashboard /> */}
+    {/* <StarRating value={2}/> */}
+    <StarRating2 />
     </>
   )
 }
