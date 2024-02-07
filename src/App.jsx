@@ -16,6 +16,7 @@ import Counter from './Project/9.Counter'
 import CryptoDashboard from './Project/14.CryptoDashboard'
 import StarRating from './Project/15.StarRating/StarRating'
 import StarRating2 from './Project/15.StarRating/StarRating2'
+import AutoComplete from './Project/16.AutocompleteWithDebounce/AutoComplete'
 function App() {
  return(
     <>
@@ -31,10 +32,11 @@ function App() {
     {/* <FetchData /> */}
     {/* <FilterOfList /> */}
     {/* <CurrencyConverter /> */}
-    <DropDown />
+    {/* <DropDown /> */}
     {/* <CryptoDashboard /> */}
     {/* <StarRating value={2}/> */}
     {/* <StarRating2 /> */}
+    <AutoComplete />
     </>
   )
 }
