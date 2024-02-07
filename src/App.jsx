@@ -31,10 +31,10 @@ function App() {
     {/* <FetchData /> */}
     {/* <FilterOfList /> */}
     {/* <CurrencyConverter /> */}
-    {/* <DropDown /> */}
+    <DropDown />
     {/* <CryptoDashboard /> */}
     {/* <StarRating value={2}/> */}
-    <StarRating2 />
+    {/* <StarRating2 /> */}
     </>
   )
 }

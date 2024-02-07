@@ -1,6 +1,5 @@
 # Projects
 
-<<<<<<< HEAD
  1. [DisplaySimpleJsx](src/Project/1.DisplaySimpleJsx.jsx)
  2. [DisplayUsersDataArray](src/Project/2.DisplayUsersDataAraray.jsx)
  3. [HideElement](src/Project/3.HideElement.jsx)
@@ -13,4 +12,8 @@
  10. [FetchData](src/Project/10.FetchData.jsx)
  11. [FilterOfList](src/Project/11.FilterOfList.jsx)
  12. [CurrencyCounter](src/Project/12.CurrencyConveter.jsx)
+ 13. [DropDownWithDepend](src/Project/13.DropDownwithDepends.jsx)
+ 14. [CryptoDashboard](src/Project/14.CryptoDashboard.jsx)
+ 15. [StarRating](src/Project/15.StarRating/StarRating.jsx)
+ 16. [AutoCompleteWithDebounce](src/Project/16.AutocompleteWithDebounce/AutoComplete.jsx)
 

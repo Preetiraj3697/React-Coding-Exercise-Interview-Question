@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const CurrencyConverter = () => {
   const [baseCurrency, setBaseCurrency] = useState("USD");
-  const [targetCurrency, setTargetCurrency] = useState("EUR");
+  const [targetCurrency, setTargetCurrency] = useState("INR");
   const [amount, setAmount] = useState(100);
   const [convertedAmount, setConvertedAmount] = useState(0);
 
