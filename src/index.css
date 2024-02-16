@@ -1,18 +1,20 @@
-div {
-  padding: 10px;
+/* Dark mode css */
+:root{
+    --dark-color: rgb(215, 253, 2);
+    --dark-background:black;
+    --light-color:rgb(0, 68, 255);
+    --light-background:rgb(255, 255, 255);
 }
-button {
-  margin: 10px 0;
-  padding: 5px 10px;
+body{
+  padding:10;
+  margin:0;
 }
-
-.wrapper {
-  padding: 10px;
-  border: 2px solid #efefef;
-  margin-bottom: 10px;
+.light{
+  background-color: var(--light-background);
+  color:var(--light-color);
 }
-
-.box-wrapper {
-  border: 2px solid #f76cb2;
-  width: max-content;
+.dark{
+  background-color: var(--dark-background);
+  color:var(--dark-color);
 }
+/* Dark mode css */

@@ -18,6 +18,7 @@ import StarRating from './Project/15.StarRating/StarRating'
 import StarRating2 from './Project/15.StarRating/StarRating2'
 import AutoComplete from './Project/16.AutocompleteWithDebounce/AutoComplete'
 import SwapItems from './Project/17.SwapItems'
+import DarkMode from './Project/18.DarkMode'
 function App() {
  return(
     <>
@@ -38,7 +39,8 @@ function App() {
     {/* <StarRating value={2}/> */}
     {/* <StarRating2 /> */}
     {/* <AutoComplete /> */}
-     <SwapItems />
+     {/* <SwapItems /> */}
+     <DarkMode />
    </>
   )
 }
