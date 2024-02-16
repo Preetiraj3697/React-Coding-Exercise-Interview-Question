@@ -17,6 +17,7 @@ import CryptoDashboard from './Project/14.CryptoDashboard'
 import StarRating from './Project/15.StarRating/StarRating'
 import StarRating2 from './Project/15.StarRating/StarRating2'
 import AutoComplete from './Project/16.AutocompleteWithDebounce/AutoComplete'
+import SwapItems from './Project/17.SwapItems'
 function App() {
  return(
     <>
@@ -36,8 +37,9 @@ function App() {
     {/* <CryptoDashboard /> */}
     {/* <StarRating value={2}/> */}
     {/* <StarRating2 /> */}
-    <AutoComplete />
-    </>
+    {/* <AutoComplete /> */}
+     <SwapItems />
+   </>
   )
 }
 
