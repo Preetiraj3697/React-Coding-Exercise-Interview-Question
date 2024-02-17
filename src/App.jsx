@@ -20,6 +20,7 @@ import AutoComplete from './Project/16.AutocompleteWithDebounce/AutoComplete'
 import SwapItems from './Project/17.SwapItems'
 import DarkMode from './Project/18.DarkMode'
 import FetchingDataSearchWhenClick from './Project/19.FetchingDataSearchWhenClick'
+import StopLight from './Project/StopLight/StopLight'
 function App() {
  return(
     <>
@@ -42,7 +43,8 @@ function App() {
     {/* <AutoComplete /> */}
      {/* <SwapItems /> */}
      {/* <DarkMode /> */}
-     <FetchingDataSearchWhenClick />
+     {/* <FetchingDataSearchWhenClick /> */}
+     <StopLight />
    </>
   )
 }

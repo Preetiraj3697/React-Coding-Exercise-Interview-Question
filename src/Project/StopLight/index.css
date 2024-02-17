@@ -1,0 +1,22 @@
+.light{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.stop{
+    background: red;
+}
+.slow{
+    background: yellow;
+}
+.go{
+    background: green;
+}
+.stop-light{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.light:not(.on){
+    background:grey;
+}
